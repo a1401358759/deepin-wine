@@ -60,6 +60,12 @@ wget -O- https://deepin-wine.i-m.dev/setup.sh | sh
 中将 WINE_CMD 那一行修改为
 
 WINE_CMD="LC_ALL=zh_CN.UTF-8 deepin-wine"
+
+sudo apt-get install ttf-wqy-microhei  #文泉驿-微米黑
+
+sudo apt-get install ttf-wqy-zenhei  #文泉驿-正黑
+
+sudo apt-get install xfonts-wqy #文泉驿-点阵宋体
 ```
 
 ## 添加仓库过程详解
