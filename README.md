@@ -50,6 +50,17 @@ wget -O- https://deepin-wine.i-m.dev/setup.sh | sh
    |   WinRAR   |  deepin.cn.com.winrar   |
 
    当然还有一些其他的应用，不全部列出。
+   
+3. 其他问题
+```
+系统语言非中文时，中文全显示成方块，需要在
+
+/opt/deepinwine/tools/run.sh
+
+中将 WINE_CMD 那一行修改为
+
+WINE_CMD="LC_ALL=zh_CN.UTF-8 deepin-wine"
+```
 
 ## 添加仓库过程详解
 
